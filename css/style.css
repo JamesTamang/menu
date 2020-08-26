@@ -49,6 +49,7 @@ p{
     text-align: left;
     margin-top: 0;
 }
+
 .price {
     border: 1px dotted black;
     width: 50%;
@@ -56,6 +57,7 @@ p{
     border-radius: 50px;
     margin-left: 50px;
 }
+
 
 
 #starter, #main, #desert,#drinks{
@@ -234,6 +236,18 @@ p{
     font-size: 1.2rem;
 
 }
+
+    #full{
+        border: 2px solid red;
+        width: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    .full{
+        display: block;
+        background-color: aliceblue;
+        border: 1px solid red;
+    }
 .price {
     border: 1px dotted black;
     width: 50%;
@@ -249,12 +263,14 @@ justify-content: space-between;
     flex-direction: row;
     border: 1px solid black;
     align-items: center;
+    overflow: hidden;
 
 
 }
     main, article, section, aside{
         padding-left: 10vw;
         padding-right: 10vw;
+        overflow: hidden;
 
     }
 
