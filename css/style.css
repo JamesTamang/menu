@@ -1,0 +1,22 @@
+
+header{
+    width: 100 vmin;
+    height: 8vw;
+    border: 1px solid black;
+   margin-bottom: 2vw;
+   text-align: center;
+}
+article{
+  margin-bottom: 2vw;
+    padding: 1vw;
+    width: 100 vmin;
+
+ border: 1px solid black;
+
+}
+div{
+     margin: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
