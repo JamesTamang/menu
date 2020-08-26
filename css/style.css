@@ -49,6 +49,83 @@ p{
     text-align: left;
     margin-top: 0;
 }
+        #full {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full1 {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full.on{
+     max-height: 500px;
+    }
+    #full1.on{
+     max-height: 500px;
+    }
+    #but{
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+     #but1 {
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+
+     #full2 {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full2.on{
+     max-height: 500px;
+    }
+  #but2{
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+      #full3 {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full3.on{
+     max-height: 500px;
+    }
+  #but3{
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
 
 .price {
     border: 1px dotted black;
@@ -237,17 +314,84 @@ p{
 
 }
 
-    #full{
+    #full {
         border: 2px solid red;
-        width: 50px;
+        width: 90%;
+        max-height: 50px;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+
     }
-    .full{
-        display: block;
+    #full1 {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full.on{
+     max-height: 500px;
+    }
+    #full1.on{
+     max-height: 500px;
+    }
+    #but{
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
         background-color: aliceblue;
-        border: 1px solid red;
     }
+     #but1 {
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+
+     #full2 {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full2.on{
+     max-height: 500px;
+    }
+  #but2{
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+      #full3 {
+        border: 2px solid red;
+        width: 90%;
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    #full3.on{
+     max-height: 500px;
+    }
+  #but3{
+        border: 1px solid black;
+        font-size: 19px;
+        width: 52px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+
 .price {
     border: 1px dotted black;
     width: 50%;
