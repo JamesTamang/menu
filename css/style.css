@@ -15,14 +15,14 @@ background-color: aliceblue;
    margin-bottom: 2vw;
    text-align: center;
 }
-article{
+main, article, section{
   margin-bottom: 2vw;
     width: 100 vmin;
 text-align: center;
 
 
 }
-article h1{
+main h1{
     border: 4px dotted yellow;
     padding: 0px;
     margin: 0px;
@@ -34,6 +34,7 @@ h2{
   text-decoration: underline;
      padding: 0px;
     margin-top: 5px;
+
 }
 h3{
     margin: 0;
@@ -44,7 +45,7 @@ p{
     margin-top: 0;
 }
 
-#starter{
+#starter, #main, #desert,#drinks{
     display: flex;
 
     flex-direction: column;
@@ -59,10 +60,37 @@ p{
     border: 1px solid black;
     width: 60%;
     padding: 20px;
-    background-color:lightcyan;
+    background-color:lightgoldenrodyellow;
 border-radius: 25% 0%;
 }
-.img{
+#main>div{
+    margin: 5px;
+
+    border: 1px solid black;
+    width: 60%;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+border-radius: 0% 25%;
+}
+#desert>div{
+    margin: 5px;
+
+    border: 1px solid black;
+    width: 60%;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+border-radius: 25% 0%;
+}
+#starter>div{
+    margin: 5px;
+
+    border: 1px solid black;
+    width: 60%;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+border-radius: 25% 0%;
+}
+main .img{
     height: 150px;
     width: 80%;
     border: 1px dotted;
@@ -70,4 +98,75 @@ border-radius: 25% 0%;
     background-position: center;
     background-size: contain;
     margin-left: 15px;
+    border-radius: 50px;
+}
+main .img2{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/baltiskbondesuppe.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+      border-radius: 50px;
+}
+article .img{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/dynryp.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+article .img2{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/russisktapas.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+      border-radius: 50px;
+}
+section .img{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/guzni.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+section .img2{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/kaviarpandekager.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+      border-radius: 50px;
+}
+aside .img{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/roedvin.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+aside .img2{
+    height: 150px;
+    width: 80%;
+    border: 1px dotted;
+    background-image: url(image/voda.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
+      border-radius: 50px;
 }
