@@ -10,13 +10,23 @@ article{
   margin-bottom: 2vw;
     padding: 1vw;
     width: 100 vmin;
-
  border: 1px solid black;
 
 }
-div{
-     margin: 0;
-    width: 100px;
-    height: 100px;
+
+#starter{
+    display: flex;
+
+    flex-direction: column;
+    border: 5px solid black;
+    align-items: center;
+
+
+}
+#starter>div{
+    margin: 5px;
+    height: 250px;
     border: 1px solid black;
+    width: 60%;
+
 }
