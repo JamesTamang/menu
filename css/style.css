@@ -9,18 +9,14 @@ body{
 
 }
 header{
-    width: 100 vmin;
 background-color: aliceblue;
-    border: 1px 0px 0px 0px solid black;
+    border: 1px solid black;
    margin-bottom: 2vw;
    text-align: center;
 }
 main, article, section{
   margin-bottom: 2vw;
-    width: 100 vmin;
 text-align: center;
-
-
 }
 main h1{
     border: 4px dotted yellow;
@@ -28,6 +24,7 @@ main h1{
     margin: 0px;
  font-size: 40px;
    font-family: cursive;
+    color: antiquewhite;
 }
 h2{
     color: white;
@@ -44,6 +41,14 @@ p{
     text-align: left;
     margin-top: 0;
 }
+.price {
+    border: 1px dotted black;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
 
 #starter, #main, #desert,#drinks{
     display: flex;
@@ -90,6 +95,17 @@ border-radius: 25% 0%;
     background-color:lightgoldenrodyellow;
 border-radius: 25% 0%;
 }
+
+#drinks>div{
+    margin: 5px;
+
+    border: 1px solid black;
+    width: 60%;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+border-radius: 0% 25%;
+}
+
 main .img{
     height: 150px;
     width: 80%;
