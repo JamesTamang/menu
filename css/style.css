@@ -186,3 +186,14 @@ aside .img2{
     margin-left: 15px;
       border-radius: 50px;
 }
+footer{
+    height: 60px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+footer>p{
+    padding-top: 20px;
+    margin: 0;
+
+}
